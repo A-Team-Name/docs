@@ -1,0 +1,19 @@
+site_name: Enscribe Documentation
+
+theme:
+  name: "material"
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - User: getting-started/user.md
+      - Developer: getting-started/developer.md
+  - Microservices:
+      - Overview: microservices/overview.md
+      - Backend API: '!include ./Enscribe/backend/docs/mkdocs.yml'
+      # - Handwriting Server API: '!include ./Handwriting-Server/docs/mkdocs.yml'
+  - Contributing:
+      - Contributing Guide: contributing/contributing-guide.md
+
+plugins:
+  - monorepo
