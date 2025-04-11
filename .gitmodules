@@ -1,0 +1,9 @@
+[submodule "Enscribe"]
+	path = Enscribe
+	url = git@github.com:A-Team-Name/Enscribe.git
+[submodule "Handwriting-Server"]
+	path = Handwriting-Server
+	url = git@github.com:A-Team-Name/Handwriting-Server.git
+[submodule "lambda-kernculus"]
+	path = lambda-kernculus
+	url = https://github.com/A-Team-Name/lambda-kernculus
