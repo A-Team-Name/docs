@@ -10,10 +10,11 @@ nav:
       - Developer: getting-started/developer.md
   - Microservices:
       - Overview: microservices/overview.md
-      - Backend API: '!include ./Enscribe/backend/docs/mkdocs.yml'
-      # - Handwriting Server API: '!include ./Handwriting-Server/docs/mkdocs.yml'
+      - Backend API: '!include ./Enscribe/mkdocs.yml'
+      - Handwriting Server API: '!include ./Handwriting-Server/mkdocs.yml'
   - Contributing:
       - Contributing Guide: contributing/contributing-guide.md
 
 plugins:
   - monorepo
+  - mkdocstrings
