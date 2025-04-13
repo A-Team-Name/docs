@@ -4,6 +4,11 @@ Firstly we would like to thank you for choosing our product to help with your jo
 
 We envision Enscribe as a tool that removes the barriers to entry for learning languages with extended unicode support, such as Lambda Calculus, APL, and many more.
 
+## Self-Hosted vs Hosted
+Enscribe is publicly hosted by a-team-name software at [https://enscribe.a-team-name.com/login](https://enscribe.containers.uwcs.co.uk/).
+However, if you would like to self-host Enscribe, you can do so by following the instructions in the [Self-Hosting Instructions](self-hosting.md) section.
+
+
 ## Making an Account
 We, at a-team-name software, host all aspects of our project so you don't have to!
 

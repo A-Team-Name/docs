@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Welcome to Enscribe
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Enscribe is a tool that removes the barriers to entry for learning languages with extended unicode support, such as Lambda Calculus, APL, and many more.
 
-## Commands
+To get started with enscribe please refer to the [Getting Started](getting-started/user.md) guide.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+To self-host Enscribe, please refer to the [Self-Hosting](getting-started/self-hosting.md) guide.
 
-## Project layout
+To contribute to Enscribe, please refer to the [Contributing](contributing/contributing-guide.md) guide.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+If you have any questions, please get in touch via email: enscribesoftware@gmail.com
