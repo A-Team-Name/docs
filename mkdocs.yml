@@ -2,12 +2,14 @@ site_name: Enscribe Documentation
 
 theme:
   name: "material"
+  features:
+    - content.code.copy
 
 nav:
   - Home: index.md
   - Getting Started:
       - User: getting-started/user.md
-      - Developer: getting-started/developer.md
+      - Self-Hosting: getting-started/self-hosting.md
   - Microservices:
       - Overview: microservices/overview.md
       - Backend API: '!include ./Enscribe/mkdocs.yml'
@@ -18,3 +20,12 @@ nav:
 plugins:
   - monorepo
   - mkdocstrings
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
