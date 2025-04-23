@@ -6,13 +6,16 @@ authors = [
     {name = "Leon Bass, Joshua Fitzmaurice, Aidan Hall, Asher Harvey-Smith, Lewis Solarin"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.14"
 package-mode = false
 dependencies = [
     "mkdocs (>=1.6.1,<2.0.0)",
     "mkdocs-monorepo-plugin (>=1.1.0,<2.0.0)",
     "mkdocstrings[python] (>=0.29.1,<0.30.0)",
-    "mkdocs-material (>=9.6.11,<10.0.0)"
+    "mkdocs-material (>=9.6.11,<10.0.0)",
+    "mkdocs-git-revision-date-localized-plugin (>=1.4.5,<2.0.0)",
+    "mkdocs-git-committers-plugin-2 (>=2.5.0,<3.0.0)",
+    "mkdocs-git-authors-plugin (>=0.9.5,<0.10.0)"
 ]
 
 
