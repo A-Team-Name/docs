@@ -1,9 +1,13 @@
 site_name: Enscribe Documentation
+repo_url: https://github.com/A-Team-Name/
+repo_name: A-Team-Name
 
 theme:
   name: "material"
   features:
     - content.code.copy
+  icon:
+    repo: fontawesome/brands/git-alt
 
 nav:
   - Home: index.md
@@ -14,6 +18,7 @@ nav:
       - Overview: microservices/overview.md
       - Backend API: '!include ./Enscribe/mkdocs.yml'
       - Handwriting Server API: '!include ./Handwriting-Server/mkdocs.yml'
+      - Lambda Kernculus: '!include ./lambda-kernculus/mkdocs.yml'
   - Contributing:
       - Contributing Guide: contributing/contributing-guide.md
 
